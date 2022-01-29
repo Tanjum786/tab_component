@@ -1,0 +1,85 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+main{
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+
+}
+
+.contianer{
+    display: flex;
+    margin: 5rem;
+    height: 8rem;
+    width: 50rem;
+    flex-direction:column;
+    box-shadow: 1px 1px 1px 1px;
+}
+.tab{
+    display: flex;
+    justify-content: space-between;
+}
+.tab button{
+    display: flex;
+    justify-content: center;
+    margin-left: 0.5rem;
+    border: none;
+    float: none;
+    padding: 1.5rem;   
+    background-color: white;
+    font-size: 2rem; 
+    cursor: pointer;
+    width: 20rem;
+}
+.tab button:hover{
+    background-color: #eef2ff;
+
+}
+.tab button:focus{
+    background-color:#dbeafe;
+    border-bottom: 4px solid blue;
+    color: blue;
+}
+.two_conatiner{
+    display: flex;
+    flex-wrap: wrap;
+    overflow-x: scroll;
+    width: 50rem;
+    margin: 2rem;   
+}
+.two_conatiner::-webkit-scrollbar{
+    display: none;
+}
+.tab1{
+    display: flex;
+}
+.tab1 button{
+    margin-top:2rem;                                       
+    width: 12rem;
+    padding: 1rem;
+    color: black;
+}
+.fixed_text{
+    position: absolute;
+    top: 2rem;
+}
+h1{
+    text-decoration: underline;
+}
+i{
+    padding-right: 1rem;
+    
+}
+.tab i:focus{
+    color: blue;   
+}
